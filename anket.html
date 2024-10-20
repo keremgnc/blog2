@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloguma Hos Geldiniz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo1.png"> 
+        </div>
+        <ul>
+            <li><a href="anasayfa.html">Ana Sayfa</a></li>
+            <li><a href="hakkimda.html">Hakkımda</a></li>
+            <li><a href="projeler.html">Projeler</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            <li><a href="anket.html" class="active">Anket</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="containerg">
+    <h1>Mini Anket</h1>
+    <form id="surveyForm">
+        <label for="question1">1. Site hakkında düşünceleriniz nedir ?</label>
+        <input type="text" id="question1" required>
+
+        <label for="question2">2. Site sizin olsa ilk değiştireceginiz şeyler neler ?</label>
+        <input type="text" id="question2" required>
+
+        <label for="question3">3. Başlangıç seviye bir site olarak başarılı buldunuz mu ?</label>
+        <input type="text" id="question3" required>
+
+        <button type="submit">Gönder</button>
+    </form>
+    <button id="resultButton" class="hidden">Anket Sonuçları</button>
+    <div id="result" class="hidden"></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
