@@ -23,9 +23,9 @@ document.getElementById('resultButton').addEventListener('click', function() {
     if (resultDiv.classList.contains('hidden')) {
         resultDiv.innerHTML = `
             <h2>Sonuçlar:</h2>
-            <p><strong>1. En sevdiğiniz kitap:</strong> ${surveyData.question1}</p>
-            <p><strong>2. En beğendiğiniz film:</strong> ${surveyData.question2}</p>
-            <p><strong>3. Gelecekte ne yapmak istersiniz:</strong> ${surveyData.question3}</p>
+            <p><strong>1. Site hakkında düşünceleriniz nedir ?:</strong> ${surveyData.question1}</p>
+            <p><strong>2. Site sizin olsa ilk değiştireceginiz şeyler neler ?:</strong> ${surveyData.question2}</p>
+            <p><strong>3. Başlangıç seviye bir site olarak başarılı buldunuz mu ?:</strong> ${surveyData.question3}</p>
         `;
         resultDiv.classList.remove('hidden'); 
         this.textContent = "Sonuçları Gizle"; 
